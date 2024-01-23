@@ -1,0 +1,154 @@
+html{
+    background-color: black;
+}
+
+.grid-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: [one] 1fr [two ]1fr [three] 1fr [four] 1fr [five];
+    grid-template-rows: [first] 1fr [second] 1fr [third] 1fr [fourth] 1fr [fifth] 1fr [last];
+    font-family: monospace;
+    width: 20rem;
+    height: 25rem;
+}
+#inputtext{
+    display: flex;
+    grid-area: textbox;
+    grid-row: first/two;
+    grid-column: one/five;
+    height: 5rem;
+    width: auto;
+    font-size: 2rem;
+}
+#one{
+    display: flex;
+    grid-area: one;
+    grid-row: fifth/last;
+    grid-column: three/four;
+    background-color: lightcoral;
+    font-size: 2rem;
+}
+#two{
+    display: flex;
+    grid-area: two;
+    grid-row: fifth/last;
+    grid-column: two/three;
+    background-color: lightcoral;
+    font-size: 2rem;
+}
+#three{
+    display: flex;
+    grid-area: three;
+    grid-row: fifth/last;
+    grid-column: one/two;
+    background-color: lightcoral;
+    font-size: 2rem;
+}
+#four{
+    display: flex;
+    grid-area: four;
+    grid-row: fourth/fifth;
+    grid-column: one/two;
+    background-color: lightcoral;
+    font-size: 2rem;
+}
+#five{
+    display: flex;
+    grid-area: five;
+    grid-row: fourth/fifth;
+    grid-column: two/three;
+    background-color: lightcoral;
+    font-size: 2rem;
+}
+#six{
+    display: flex;
+    grid-area: six;
+    grid-row: fourth/fifth;
+    grid-column: three/four;
+    background-color: lightcoral;
+    font-size: 2rem;
+}
+#seven{
+    display: flex;
+    grid-area: seven;
+    grid-row: third/fourth;
+    grid-column: one/two;
+    background-color: lightcoral;
+    font-size: 2rem;
+}
+#eight{
+    display: flex;
+    grid-area: eight;
+    grid-row: third/fourth;
+    grid-column: two/three;
+    background-color: lightcoral;
+    font-size: 2rem;
+}
+#nine{
+    display: flex;
+    grid-area: nine;
+    grid-row: third/fourth;
+    grid-column: three/four;
+    background-color: lightcoral;
+    font-size: 2rem;
+}
+#zero{
+    display: flex;
+    grid-area: zero;
+    grid-row: second/third;
+    grid-column: one/two;
+    background-color: yellow;
+    font-size: 2rem;
+}
+#dot{
+    display: flex;
+    grid-area: dot;
+    grid-row: second/third;
+    grid-column: two/three;
+    background-color: yellow;
+    font-size: 2rem;
+}
+#equal{
+    display: flex;
+    grid-area: equal;
+    grid-row: second/third;
+    grid-column: three/four;
+    background-color: lightseagreen;
+    font-size: 2rem;
+}
+#plus{
+    display: flex;
+    grid-area: plus;
+    grid-row: second/third;
+    grid-column: four/five;
+    background-color: lightseagreen;
+    font-size: 2rem;
+}
+#minus{
+    display: flex;
+    grid-area: minus;
+    grid-row: third/fourth;
+    grid-column: four/five;
+    background-color: lightseagreen;
+    font-size: 2rem;
+}
+#times{
+    display: flex;
+    grid-area: times;
+    grid-row: fourth/fifth;
+    grid-column: four/five;
+    background-color: lightseagreen;
+    font-size: 2rem;
+}
+#slash{
+    display: flex;
+    grid-area: slash;
+    grid-row: fifth/last;
+    grid-column: four/five;
+    background-color: lightseagreen;
+    font-size: 2rem;
+}
